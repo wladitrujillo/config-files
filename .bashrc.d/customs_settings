@@ -1,6 +1,3 @@
-# neovim
-export PATH="$PATH:/opt/nvim-linux64/bin"
-
 ## For show git branch on git repositories in terminal by my ntrujillo
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
