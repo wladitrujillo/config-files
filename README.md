@@ -5,7 +5,7 @@
 This repository contains configuration files for various tools and applications
 
 ## Folder Structure
-
+```shell
 ├── .bashrc.d
 │   ├── bash_aliases
 │   └── customs_settings
@@ -27,7 +27,7 @@ This repository contains configuration files for various tools and applications
 ├── .tmux.conf
 └── .vimrc
 ├── README.md
-
+```
 
 ## Tmux Config
 
