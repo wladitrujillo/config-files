@@ -61,4 +61,13 @@ This repository contains configuration files for various tools and applications
     ~/.config/nvim/lua/plugins
 ```
 
+## GNU Stow
 
+### Crate symbolic links files
+```shell
+stow .
+```
+### Clean up symbolic links
+```shell
+stow -D .
+```
