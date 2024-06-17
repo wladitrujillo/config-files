@@ -9,8 +9,6 @@ This repository contains configuration files for various tools and applications
 ├── .bashrc.d
 │   ├── bash_aliases
 │   └── customs_settings
-├── bashrc_fedora
-├── bashrc_ubuntu
 ├── .config
 │   └── nvim
 │       ├── init.lua
@@ -26,10 +24,10 @@ This repository contains configuration files for various tools and applications
 │               ├── nvimtree.lua
 │               └── telescope.lua
 ├── .ideavimrc
-├── init.vim
-├── README.md
 ├── .tmux.conf
 └── .vimrc
+├── init.vim
+├── README.md
 
 
 ## Tmux Config
