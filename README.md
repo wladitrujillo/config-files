@@ -26,7 +26,6 @@ This repository contains configuration files for various tools and applications
 ├── .ideavimrc
 ├── .tmux.conf
 └── .vimrc
-├── init.vim
 ├── README.md
 
 
@@ -71,3 +70,31 @@ stow .
 ```shell
 stow -D .
 ```
+
+## Requirements
+
+- GNU Stow
+https://www.gnu.org/software/stow/
+https://www.gnu.org/software/stow/manual/stow.html
+- Neovim 
+https://neovim.io/
+- NerdFonts
+https://www.nerdfonts.com/font-downloads
+```shell
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/NerdFontsSymbolsOnly.zip \
+&& unzip NerdFontsSymbolsOnly.zip -d /usr/local/share/fonts \
+&& rm NerdFontsSymbolsOnly.zip \
+&& fc-cache -v
+```
+- EZA
+https://eza.rocks/
+- Tmux
+https://github.com/tmux/tmux/wiki
+https://hamvocke.com/blog/a-quick-and-easy-guide-to-tmux/
+- fzf
+https://github.com/junegunn/fzf
+- ripgrep
+https://github.com/BurntSushi/ripgrep
+https://codapi.org/try/ripgrep/
+- Copilot for CLI
+https://githubnext.com/projects/copilot-cli

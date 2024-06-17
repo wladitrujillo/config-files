@@ -1,4 +1,4 @@
-## For show git branch on git repositories in terminal by my ntrujillo
+## For show git branch on git repositories
 parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
