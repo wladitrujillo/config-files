@@ -12,6 +12,7 @@ vim.opt.shiftwidth = 4
 vim.opt.smartindent = true
 vim.opt.relativenumber = true
 vim.opt.number = true
+vim.opt.filetype = "on"
 
 vim.opt.cursorline = true
 vim.api.nvim_set_hl(0, 'CursorLine', { underline = true }) 
