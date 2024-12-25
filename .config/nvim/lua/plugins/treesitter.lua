@@ -6,6 +6,6 @@ return {
     opts = {
           ensure_installed = { "c", "lua", "luadoc", "vim", "vimdoc", "javascript", "html", "java", "typescript" },
           highlight = { enable = true },
-          indent = { enable = true },  
+          indent = { enable = true },
     }
 }
